@@ -12,10 +12,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample-rails.3.1.8-mysql_development
+  database: mysql_development
   pool: 5
-  username: root
-  password:
+  username: jack
+  password: jill
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -25,18 +25,18 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample-rails.3.1.8-mysql_test
+  database: mysql_test
   pool: 5
-  username: root
-  password:
+  username: jack
+  password: jill
   socket: /tmp/mysql.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: sample-rails.3.1.8-mysql_production
+  database: mysql_production
   pool: 5
-  username: root
-  password:
+  username: jack
+  password: jill
   socket: /tmp/mysql.sock
